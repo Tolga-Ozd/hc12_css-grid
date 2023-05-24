@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows:repeat(3, 1fr);
+
+}
+
+.content {
+  border: 1px solid red;
+  background-color: #dede;
+}
+
+.c5 img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position:55%;   
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* object-position: property si ile resmi istedimiz ksmını alabiliriz */
+/* background-position da aynı*/
